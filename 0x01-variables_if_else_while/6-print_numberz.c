@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
 
 /* betty style doc for function main goes there */
 /**
@@ -12,9 +11,9 @@
 int main(void)
 {
 
-int number = 0;
+int number = 48;
 
-while (number <= 10)
+while (number <= 58)
 {
 putchar(number);
 number++;
