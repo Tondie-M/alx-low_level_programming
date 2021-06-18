@@ -18,6 +18,8 @@ if (letter != 'e'  && letter != 'q')
 putchar(letter);
 letter++;
 }
+else
+{
 letter++;
 }
 putchar('\n');
