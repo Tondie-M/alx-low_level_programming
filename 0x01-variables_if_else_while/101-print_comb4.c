@@ -42,7 +42,7 @@ int main(void)
 			else
 			{
 				middleDigit = 1 + ++leftDigit;
-				rightDigit = 1 + middleDigit++;
+				rightDigit = 1 + middleDigit;
 			}
 		}
 	}
