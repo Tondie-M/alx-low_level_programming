@@ -34,7 +34,7 @@ int main(void)
 			else
 			{
 				leftDigit++;
-				rightDigit++;
+				rightDigit = 1 + leftDigit;
 			}
 		}
 	}
