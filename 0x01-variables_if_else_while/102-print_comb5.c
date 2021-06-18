@@ -14,10 +14,7 @@ int main(void)
 
 	while (fd < 48)
 	{
-		putchar(fd);
-		putchar(sd);
-		putchar(td);
-		putchar(ld);
+		putchar(fd); putchar(sd); putchar(td); putchar(ld);
 
 		if (fd == 57 && sd == 56 && td == 57 && ld == 57)
 		{
