@@ -11,6 +11,7 @@ int main(void)
 {
 	int fd, sd, td = 48;
 	int ld = 49;
+
 	while (fd < 48)
 	{
 		putchar(fd);
