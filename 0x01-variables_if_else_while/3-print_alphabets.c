@@ -20,7 +20,7 @@ lowerCaseLetter++;
 
 while (upperCaseLetter <= 'Z')
 {
-putchar(upperCaseLetter)
+putchar(upperCaseLetter);
 upperCaseLetter++;
 }
 
