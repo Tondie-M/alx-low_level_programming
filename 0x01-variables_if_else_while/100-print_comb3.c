@@ -8,12 +8,12 @@
 
 int main(void)
 {
-	int leftdigit = 48;
-	int rightDigit == 49;
+	int leftDigit = 48;
+	int rightDigit = 49;
 
 	while (leftDigit < 57 && rightDigit < 58)
 	{
-		putchar(leftdigit);
+		putchar(leftDigit);
 		putchar(rightDigit);
 
 		if (leftDigit == 56 && rightDigit == 57)
