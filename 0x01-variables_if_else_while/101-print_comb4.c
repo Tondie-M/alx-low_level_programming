@@ -37,11 +37,11 @@ int main(void)
 			}
 			else if (middleDigit < 56 && rightDigit == 57)
 			{
-				rightDigit = 1 + middleDigit++;
+				rightDigit = 1 + ++middleDigit;
 			}
 			else
 			{
-				middleDigit = 1 + leftDigit++;
+				middleDigit = 1 + ++leftDigit;
 				rightDigit = 1 + middleDigit++;
 			}
 		}
