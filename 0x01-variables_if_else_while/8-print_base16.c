@@ -16,7 +16,7 @@ char letters = 'a';
 while (numbers < 58)
 {
 putchar(numbers);
-numbers++
+numbers++;
 }
 
 while (letters <= 'f')
