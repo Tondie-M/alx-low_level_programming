@@ -1,4 +1,4 @@
-#include <sdtdio.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
@@ -14,10 +14,11 @@ char letter = 'a';
 
 while (letter <= 'z')
 {
-putchar("%c\n", letter);
+putchar(letter);
 letter++;
 }
 
+putchar('\n');
 return (0);
 
 }
