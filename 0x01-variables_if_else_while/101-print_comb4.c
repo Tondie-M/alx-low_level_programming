@@ -23,7 +23,7 @@ int main(void)
 		{
 			putchar('\n');
 			leftDigit++;
-			midleDigit++;
+			middleDigit++;
 			rightDigit++;
 		}
 		else
