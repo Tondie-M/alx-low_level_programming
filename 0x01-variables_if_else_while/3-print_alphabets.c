@@ -10,7 +10,7 @@ int main(void)
 {
 
 char lowecaseLetter = 'a';
-char upperCaseletter = 'A';
+char upperCaseLetter = 'A';
 
 while (lowerCaseLetter <= 'z')
 {
@@ -21,7 +21,7 @@ lowerCaseLetter++;
 while (upperCaseLetter <= 'Z')
 {
 putchar(upperCaseLetter)
-upperCaseLetter++)
+upperCaseLetter++;
 }
 
 putchar('\n');
