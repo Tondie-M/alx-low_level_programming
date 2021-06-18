@@ -15,10 +15,11 @@ while (letter <= 'z')
 {
 if (letter != 'e' && letter != 'q')
 {
-putchar("%c\n", letter);
+putchar(letter);
 letter++;
 }
 
+ putchar('\n');
 return (0);
 
 }
