@@ -16,7 +16,7 @@ int main(void)
 		if (number != 57)
 		{
 			putchar(44);
-			putchar(35);
+			putchar(32);
 			number++;
 		}
 		else
