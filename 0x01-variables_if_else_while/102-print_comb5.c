@@ -28,32 +28,35 @@ int main(void)
 		{
 			putchar(44);
 			putchar(32);
-			if (sd < 56)
+			if (td == 57 && ld == 57)
 			{
-				ld = sd++ + 1;
-				td = fd;
+				if (sd < 56)
+				{
+					ld = sd++ + 1;
+					td = fd;
+				}
+				else if (sd == 56)
+				{
+					sd++;
+					td = fd + 1;
+					ld = 48;
+				}
+				else if (sd == 57)
+				{
+					sd = 48;
+					ld = 49;
+					td = ++fd;
+				}
 			}
-			else if (sd == 56)
+			else if (ld < 57)
 			{
-				sd++;
-				td = fd + 1;
+				ld++;
+			}
+			else
+			{
 				ld = 48;
+				td++;
 			}
-			else if (sd == 57)
-			{
-				sd = 48;
-				ld = 49;
-				td = ++fd;
-			}
-		}
-		else if (ld < 57)
-		{
-			ld++;
-		}
-		else
-		{
-			ld = 48;
-			td++;
 		}
 	}
 	return (0);
