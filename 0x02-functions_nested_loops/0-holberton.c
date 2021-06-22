@@ -11,7 +11,7 @@ int main(void)
 {
 	int i = 0;
 	char c;
-	char cs[] = "Holberton\n"
+	char cs[] = "Holberton\n";
 
 	while (i < 9)
 	{
