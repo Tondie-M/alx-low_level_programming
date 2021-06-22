@@ -2,8 +2,8 @@
 
 /**
  * _abs - Entry point
- *@n: int to be evaluated
-
+ * @n: int to be evaluated
+ *
  * Return: int
  */
 
