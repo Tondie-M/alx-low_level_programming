@@ -22,4 +22,5 @@ void print_to_98(int i)
 			i++;
 		}
 	}
+	printf("98\n");
 }
