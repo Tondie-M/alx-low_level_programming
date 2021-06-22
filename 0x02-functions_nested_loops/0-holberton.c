@@ -13,7 +13,7 @@ int main(void)
 	char c;
 	char cs[] = "Holberton\n";
 
-	while (i < 9)
+	while (i <= 9)
 	{
 		c = cs[i];
 
