@@ -2,6 +2,7 @@
 
 /**
  * _islower - Entry point
+ * @c: is the value to be evaluated
  *
  * Return: int
  */
