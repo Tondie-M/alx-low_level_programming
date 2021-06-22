@@ -2,6 +2,7 @@
 
 /**
  * print_last_digit - Entry point
+ * @n: value to be evaluated
  *
  * Return: int
  */
@@ -14,7 +15,7 @@ int print_last_digit(int n)
 
 	if (lastDigit < 0)
 	{
-		num = -1
+		num = -1;
 	}
 	num = '0' + 1;
 	_putchar(num);
