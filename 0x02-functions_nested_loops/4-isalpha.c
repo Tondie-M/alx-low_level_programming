@@ -2,6 +2,7 @@
 
 /**
  *  _isalpha - Entry point
+ * @c: the value evaluated
  *
  *  Return: int
  */
