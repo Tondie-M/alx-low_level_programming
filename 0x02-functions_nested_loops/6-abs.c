@@ -2,11 +2,12 @@
 
 /**
  * _abs - Entry point
- *
+ *@n: int to be evaluated
+
  * Return: int
  */
 
-int _abs(int)
+int _abs(int n)
 {
 	if (n >= 0)
 	{
