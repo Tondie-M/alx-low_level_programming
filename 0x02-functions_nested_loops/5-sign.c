@@ -2,6 +2,7 @@
 
 /**
  * print_sign - Entry point
+ * @n: int to be evaluated
  *
  * Return: int
  */
