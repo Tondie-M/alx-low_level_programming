@@ -20,7 +20,12 @@ void jack_bauer(void)
 			k = minutes / 10;
 			l = minutes % 10;
 
-			_putchar('0' + i + '0' + j + ':' + '0' + k + '0' + l + '\n');
+			_putchar('0' + i);
+			_putchar('0' + j);
+			_putchar(':');
+			_putchar('0' + k);
+			_putchar('0' + l);
+			_putchar('\n');
 		}
 	}
 }
