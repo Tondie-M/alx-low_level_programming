@@ -18,7 +18,7 @@ void print_triangle(int size)
 		{
 			if ((j + i) < size)
 			{
-				 _putchar(s);
+				_putchar(s);
 			}
 			if ((j + i) >= size)
 			{
